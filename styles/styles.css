@@ -1,3 +1,4 @@
+/* Universal styles  */
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,10 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  background-color: #F5F8FF;
+  overflow-x: hidden;
 }
+
 /* shared styles */
 .btn-primary{
     background-color: #4E47FF;
@@ -33,7 +37,7 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Header part styles */
+/* Header styles */
 header{
     width: 100vw;
     height: 80vh;
@@ -41,6 +45,8 @@ header{
     background-position: center;
     margin-bottom: 116px;
 }
+
+/* navigation bar styles */
 nav{
     width: 80%;
     height: 15vh;
@@ -56,6 +62,7 @@ nav{
     color: #4E47FF;
 }
 
+/* header's Banner section styles */
 .header-hero{
     max-width: 45%;
     height: 30vh;
@@ -70,4 +77,38 @@ nav{
     font-size: 65px;
     text-align: center;
     margin-bottom: 37px;
+}
+
+
+/* action section styles */
+.action{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 116px;
+}
+
+.action-content{
+    width: 35%;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.action-sub-title{
+    font-size: 24px;
+    font-weight: 250;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
