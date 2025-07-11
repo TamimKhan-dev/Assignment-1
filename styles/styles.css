@@ -211,3 +211,31 @@ nav{
     font-weight: 500;
     color: #B3B3B3;
 }
+
+/* focus section styles */
+.focus-container{
+    width: 70%;
+    background-color: #fff;
+    border-radius: 14px;
+    margin: 0 auto 95px;
+    padding: 70px;
+    text-align: center;
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.focus-sub-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.focus-img{
+    margin-top: 40px;
+    border-radius: 48px;
+}
