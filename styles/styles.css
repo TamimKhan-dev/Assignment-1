@@ -22,6 +22,7 @@
     font-weight: 600;
     font-family: "Raleway", sans-serif;
     cursor: pointer;
+    border: 1px solid transparent;
     transition: 
         background-color 0.3s ease, 
         color 0.3s ease, 
@@ -33,7 +34,7 @@
     background-color: #fff;
     color: black;
     border: 1px solid #4E47FF;
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
@@ -103,7 +104,7 @@ nav{
 .action-sub-title{
     font-size: 24px;
     font-weight: 250;
-    color: #252432;
+    color: #72737F;
     margin-bottom: 23px;
 }
 
@@ -111,4 +112,39 @@ nav{
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+/* Productive section styles */
+.productive{
+    width: 70%;
+    background-color: #E5E7FF;
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 80px;
+    margin: 0 auto 137px;
+
+}
+
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.productive-data{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.productive-item{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+
+.productive-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #72737F;
 }
