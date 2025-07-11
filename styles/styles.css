@@ -274,7 +274,7 @@ label[for="textarea"]{
 }   
 .info-collector 
 input[type="email"],
-input[type="name"]{
+input[type="text"]{
     font-family:  "Inter", sans-serif;
     padding: 20px;
     border: none;
@@ -340,4 +340,5 @@ footer{
     justify-content: space-between;
     gap: 55px;
     color: #8987A1;
+    cursor: pointer;
 }
